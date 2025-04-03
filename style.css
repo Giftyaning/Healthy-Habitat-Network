@@ -11,6 +11,7 @@
     /*-- Colors --*/
     --background-color: #f0f0f0;
     --header-bg: #212121;
+    --sub-header-bg: #232F3E;
     --header-btn-color: #00999e;
     --black: #0000;
     --white: #ffff;
@@ -107,4 +108,13 @@ form .btn{
 }
 
 
-                /*-- Sub Navigation --/
+                /*-- Sub Navigation --*/
+.sub-nav{
+  background-color: var(--sub-header-bg);
+  color: var(--white);
+  padding: ;
+}
+
+.sub-nav-content{
+  padding: .3em 0;
+}
