@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Admin</title>
-</head>
-<body>
-    <div class="container">
-        <div class="profile"></div>
-        <div class="business-list"></div>
+  </head>
+  <body>
+    <!-- Side Navbar -->
+    <aside>
+      <ul class="nav">
+        <li class="dashboard">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="dashboard">
+          <a href="#">Companies</a>
+        </li>
+        <li class="dashboard">
+          <a href="#">Pending requests</a>
+        </li>
+        <li class="dashboard">
+          <a href="#">Log out</a>
+        </li>
+      </ul>
+    </aside>
+
+    <div class="admin-main-content">
+      <div class="content-top">
+        <!-- Search Engine -->
+        <form class="d-flex search" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search company"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+        <!-- Add new company-->
+        <button class="add">
+            Add new company
+        </button>
+      </div>
+
+      <!-- Business List-->
+      <table>
+        <tr>
+          <th>Business name</th>
+          <th>Email</th>
+          <th>Business type</th>
+          <th>Registration year</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <th>Amazon</th>
+          <th>user@amazon.com</th>
+          <th>Ecommerce</th>
+          <th>2025</th>
+          <th>...</th>
+        </tr>
+        <tr>
+          <th>Amazon</th>
+          <th>user@amazon.com</th>
+          <th>Ecommerce</th>
+          <th>2025</th>
+          <th>...</th>
+        </tr>
+      </table>
     </div>
-</body>
+  </body>
 </html>
