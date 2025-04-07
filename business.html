@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Business</title>
+  </head>
+  <body>
+    <div class="admin-main-content">
+      <div class="content-top">
+        <!-- Search Engine -->
+        <form class="d-flex search" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search products"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+
+      <!-- Add new product-->
+      <button class="add">Add product</button>
+
+
+      <!-- Product List-->
+      <table>
+        <tr>
+          <th>Icon</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Product type</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <th>Amazon</th>
+          <th>clean</th>
+          <th>facial wash for everyday use</th>
+          <th>facial wash</th>
+          <th>...</th>
+        </tr>
+        <tr>
+          <th>Amazon</th>
+          <th>clean</th>
+          <th>facial wash for everyday use</th>
+          <th>facial wash</th>
+          <th>...</th>
+        </tr>
+      </table>
+
+      <br>
+
+      <!-- Product Ratings -->
+       <table>
+        <tr>
+          <th>Icon</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Ratings</th>
+        </tr>
+        <tr>
+          <th>Amazon</th>
+          <th>clean</th>
+          <th>facial wash for everyday use</th>
+          <th>5 stars</th>
+        </tr>
+        <tr>
+          <th>Amazon</th>
+          <th>clean</th>
+          <th>facial wash for everyday use</th>
+          <th>5 stars</th>
+        </tr>
+      </table>
+
+      <form class="product-addition" id="productAddition">
+        <input type="text" name="product-name" id="productName">
+        <input type="text" name="product-description" id="productDescription">
+
+      </form>
+    </div>
+  </body>
 </html>
