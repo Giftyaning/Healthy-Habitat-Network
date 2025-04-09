@@ -121,3 +121,12 @@ form .btn{
 
 
 
+/*-- Login Page */
+.card{
+    width: 60%;
+    padding: 7em;
+}
+
+.subtitle{
+    max-width: 70%;
+}
